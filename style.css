@@ -1,0 +1,91 @@
+body {
+  user-select: none;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container > div {
+  padding: 15px;
+}
+
+div > a {
+  padding: 5px;
+  border-radius: 8%;
+  background-color: lightgray;
+}
+
+.colorSelect {
+  background: #000000d1;
+  height: 600px;
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.colorSelect div {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 5px auto;
+  width: 140px;
+  height: 100px;
+  text-align: center;
+  user-select: none;
+  padding-top: 20px;
+}
+
+section > div {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
+  width: 150px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 3px;
+  border-width: 1px;
+  border-radius: 50px;
+}
+
+.light {
+  background: #fff;
+  border-radius: 50%;
+  color: #000;
+}
+
+.light2 {
+  border-radius: 50%;
+  color: #000;
+}
+
+.invalid {
+  pointer-events: none;
+}
+
+.Hide {
+  visibility: hidden;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div > a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+section > button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

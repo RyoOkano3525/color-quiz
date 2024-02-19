@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ペンライトは何色?</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div>
+        <div id="questionNumber" style="font-size: 2rem;">ペンライトは何色?</div>
+        
+        <div id="question"  style="margin-top: 20px; font-size: 2.5rem;"><!-- ここに問題が表示されます --></div>
+        <div></div>
+      </div>
+      
+      <div>
+        <!-- <a>遊び方</a> -->
+        <a id="refresh">ページ更新</a>
+        <!-- <a>ペンライト表</a> -->
+      </div>
+      
+      <div>
+        <!-- "正解"か"違う｡｡｡"が表示されます -->
+        <div id="message" class="Hide" style="font-size: 2rem;"></div>
+
+        <div>
+          <div id="answer" class="Hide"></div>
+        </div>
+      </div>
+
+    </div>
+      
+
+    <div class="colorSelect">
+      <div style="margin-top: 70px;">
+        <section>
+          <button class="hov"  style="background: #7fffff"></button>
+          <button class="hov"  style="background: purple"></button>
+          <div id="name">パステルブルー<br>&<br>パープル</div>
+        </section>
+
+        <section>
+          <button style="background: yellow"></button>
+          <button style="background: yellow"></button>
+          <div id="name">イエロー<br>&<br>イエロー</div>
+        </section>
+
+        <section>
+          <button style="background: blue"></button>
+          <button style="background: blue"></button>
+          <div id="name">ブルー<br>&<br>ブルー</div>
+        </section>
+
+        <section>
+          <button style="background: #fff"></button>
+          <button style="background: #fff"></button>
+          <div id="name">ホワイト<br>&<br>ホワイト</div>
+        </section>
+
+        <section>
+          <button style="background: #ffadd6"></button>
+          <button style="background: #ffadd6"></button>
+          <div id="name">サクラピンク<br>&<br>サクラピンク</div>
+        </section>
+      </button>
+      </div>
+
+      <div>
+        <section>
+          <button style="background: white"></button>
+          <button style="background: #00ada9"></button>
+          <div id="name">ホワイト<br>&<br>エメラルドグリーン</div>
+        </section>
+
+        <section>
+          <button style="background: #fff"></button>
+          <button style="background: pink"></button>
+          <div id="name">ホワイト<br>&<br>ピンク</div>
+        </section>
+
+        <section>
+          <button style="background: #fff"></button>
+          <button style="background: violet"></button>
+          <div id="name">ホワイト<br>&<br>バイオレット</div>
+        </section>
+
+        <section>
+          <button style="background: #7fffff"></button>
+          <button style="background: yellow"></button>
+          <div id="name">パステルブルー<br>&<br>イエロー</div>
+        </section>
+
+        <section>
+          <button style="background: yellow"></button>
+          <button style="background: #ffadd6"></button>
+          <div id="name">イエロー<br>&<br>サクラピンク</div>
+        </section>
+      </button>
+      </div>
+
+      <div>
+        <section>
+          <button style="background: #fff"></button>
+          <button style="background: orange"></button>
+          <div id="name">ホワイト<br>&<br>オレンジ</div>
+        </section>
+
+        <section>
+          <button style="background: orange"></button>
+          <button style="background: orange"></button>
+          <div id="name">オレンジ<br>&<br>オレンジ</div>
+        </section>
+        <section>
+          <button style="background: #7fffbf"></button>
+          <button style="background: #ffadd6"></button>
+          <div id="name">パールグリーン<br>&<br>サクラピンク</div>
+        </section>
+
+        <section>
+          <button style="background: purple"></button>
+          <button style="background: purple"></button>
+          <div id="name">パープル<br>&<br>パープル</div>
+        </section>
+
+        <section>
+          <button style="background: #00ada9"></button>
+          <button style="background: red"></button>
+          <div id="name">エメラルドグリーン<br>&<br>レッド</div>
+        </section>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="script(2).js"></script>
+    
+  </body>
+</html>
+
