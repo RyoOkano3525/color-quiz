@@ -12,10 +12,9 @@ body {
   padding: 15px;
 }
 
-div > a {
-  padding: 5px;
-  border-radius: 8%;
-  background-color: lightgray;
+.container > div > div {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック体", "Yu Gothic", sans-serif;
 }
 
 .colorSelect {
@@ -31,12 +30,12 @@ div > a {
 .colorSelect div {
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 section {
-  margin: 5px auto;
-  width: 140px;
-  height: 100px;
+  width: 160px;
+  height: 120px;
   text-align: center;
   user-select: none;
   padding-top: 20px;
@@ -80,12 +79,6 @@ button:hover {
   cursor: pointer;
 }
 
-div > a:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-section > button:hover {
-  cursor: pointer;
-  opacity: 0.8;
+.textRed {
+  color: red;
 }
