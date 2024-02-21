@@ -96,3 +96,11 @@ button:hover {
 .textRed {
   color: red;
 }
+
+.notice {
+  color: #fff;
+  position: fixed;
+  font-size: 0.8rem;
+  top: 860px;
+  right: 0px;
+}
